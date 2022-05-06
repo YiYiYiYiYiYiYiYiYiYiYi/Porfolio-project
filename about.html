@@ -29,6 +29,19 @@
     <title>Document</title>
   </head>
   <body>
+    <div class="container">
+      <nav>
+        <ul class="d-flex justify-content-between">
+          <li><a href="/" title="Home page">Home</a></li>
+          <li class="active">
+            <a href="/about.html" title="About Chris">About</a>
+          </li>
+          <li><a href="/work.html" title="Chris' offers">Work</a></li>
+          <li><a href="/contact.html" title="Contact Chris">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
     <div class="content-container container">
       <div class="row">
         <div class="col-lg-6">
@@ -41,18 +54,58 @@
               preparation courses, communication courses. In addition, I also
               offer German translation and proof reading service.
             </p>
-            <a href="" class="btn btn-branding">Check out my offers</a>
+            <a href="/work.html" class="btn btn-branding"
+              >Check out my offers</a
+            >
           </div>
         </div>
         <div class="col-lg-6">
           <img
             src="images/German teacher.jpg"
-            alt=""
+            alt="German teacher"
             class="img-fluid"
             width="600"
           />
         </div>
       </div>
     </div>
+    <footer class="container">
+      <div
+        class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+      >
+        <div>
+          <h4>Course Inquiry</h4>
+          <p class="text-muted">Let's work together</p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            class="btn btn-branding mt-3"
+            title="Contact Chris"
+            >Contact me</a
+          >
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a href="mailto:cd@elbfabrik.de" class="email-link" title="Email Chris"
+          >cd@elbfabrik.de</a
+        >
+      </div>
+      <div class="social-links d-flex justify-content-center mb-5">
+        <a href="" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="" title="GitHub profile"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a href="" title="Facebook"><i class="fa-brands fa-facebook"></i></a>
+      </div>
+      <p class="text-center mt-5">
+        This project was coded by Yi, and it is
+        <a
+          href="https://github.com/YiYiYiYiYiYiYiYiYiYiYi/Porfolio-project"
+          target="_blank"
+          >open-sourced</a
+        >
+      </p>
+    </footer>
   </body>
 </html>
